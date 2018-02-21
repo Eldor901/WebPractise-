@@ -1,5 +1,5 @@
 
-.first_block h1
+.main_block h1
 {
     color: #46C5E6;
     position: relative;
@@ -74,9 +74,16 @@
 }
 #answer_for_first p
 {
-    font-family: arial;
+    font-family: arial, sans-serif;
     font-style: italic;
     line-height: 1.5;
     position: relative;
     left: 20px;
+}
+
+blockquote
+{
+    position: relative;
+    left: 1100px;
+    bottom: -100px;
 }
