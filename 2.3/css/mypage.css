@@ -124,6 +124,13 @@ ol
     left: 480px;
     bottom: 830px;
 }
+.rectangle
+{
+  width: 60px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #45c3a9;
+}
 .my_name
 {
     font-size: 48px;
@@ -154,12 +161,14 @@ ol
 }
 
 /*article*/
+
+
+
 /*footer*/
 .final_part
 {
     position: relative;
-    left: 480px;
-    bottom: 800px;
+    bottom: 10px;
     width: 100px;
     height: auto;
 
