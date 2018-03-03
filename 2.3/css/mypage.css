@@ -1,185 +1,186 @@
-body
+/* nav */
+
+/* nav */
+.main_container_me
 {
-    background-color: white;
-    color: black;
+
+    width: 1000px;
+    margin: auto;
 }
-/* header*/
+
+/* header * sans-serif*/
+.quote
+{
+    float: right;
+    width: 570px;
+}
+
+.author_name
+{
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: -25px;
+}
+
+.quote_font
+{
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(132,132,132);
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    margin-top: 26px;
+    margin-left: 18px;
+}
+
+
 .photo
 {
     width: 330px;
     height: 350px;
     border-radius: 5px;
     background-color: #132d35;
-    color: black;
-
+    float: left;
 }
-.image_position
+
+
+
+.quate_photo
 {
     position: relative;
     top: 50px;
-    left: 85px;
+    right: 41px;
 }
 
-.comma
+div
 {
-      width: 200px;
-      height: 100px;
-      border-radius: 85px;
-      font-size: 200px;
-      font-family: "Open Sans";
-      color: rgb(245,245,245);
-      position: relative;
-      bottom: 25px;
-      right: 50px
+    box-sizing: border-box;
 }
-.blackquate
-{
-      width: 500px;
-      height: 470px;
-      font-size: 28px;
-      line-height: 42px;
-      color: rgb(132,132,132);
-      font-family: "Georgia";
-      font-style: italic;
-}
-.quate_position
-{
-    position: relative;
-    left: 540px;
-    bottom: 280px;
-}
-.quate_information
-{
-     position: relative;
-     bottom: 45px;
-     width: 10px;
-     height: 20px;
+/* header */
 
-}
-.person_name
+/* aside*/
+.left_container
 {
-    font-size: 16px;
-    line-height: 42px;
-    color: rgb(51,51,51);
-    font-family: "Open Sans";
-    font-weight: bold;
-    position: relative;
-    bottom: 30px;
+    width: 305px;
+    height: 461px;
+    float: left;
 }
-/*header*/
 
-/*asidde*/
-.personal_interests
-{
-    position: relative;
-    left: 85px;
-    bottom: 100px;
-}
-.interests_names
+.favorite_writers
 {
     font-size: 24px;
     line-height: 32px;
     color: rgb(21,169,140);
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
+    margin-top: 47px;
 }
-ul
+
+ ul
 {
     width: 330px;
     height: 260px;
     font-size: 19px;
     line-height: 36px;
     color: rgb(85,85,85);
-    font-family: "Georgia";
+    font-family: "Georgia", sans-serif;
+    padding-left: 21px;
+    margin-top: -11px;
 }
-ol
+
+.favorite_films
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: -96px;
+}
+
+ ol
 {
     width: 330px;
     height: 260px;
     font-size: 19px;
     line-height: 36px;
     color: rgb(85,85,85);
-    font-family: "Georgia";
-    position: relative;
+    font-family: "Georgia", sans-serif;
+    padding-left: 21px;
+    margin-top: -12px;
+}
 
-}
-.authors
-{
-    position: relative;
-    bottom: 50px;
-}
-.films
-{
-     position: relative;
-     bottom: 150px;
-}
-/*aside*/
 
-/*article*/
-.main_part
+/* aside  */
+
+/* section */
+.right_container
 {
-    position: relative;
-    width: 500px;
-    height: auto;
-    left: 480px;
-    bottom: 830px;
+    width: 570px;
+    height: 663px;
+    float: left;
+    margin-left: 85px;
 }
-.rectangle
-{
-  width: 60px;
-  height: 6px;
-  border-radius: 3px;
-  background-color: #45c3a9;
-}
+
 .my_name
 {
     font-size: 48px;
     line-height: 42px;
     color: rgb(51,51,51);
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-weight: bold;
 }
-.about_me_information
+
+.rectangle
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+    margin-top: -19px;
+}
+
+.about_me
 {
     width: 561px;
     height: 198px;
     font-size: 19px;
     line-height: 32px;
     color: rgb(85,85,85);
-    font-family: "Georgia";
-    position: relative;
-    top: 35px;
+    font-family: "Georgia", sans-serif;
+    margin-top: 43px;
 }
-.my_hobby
+
+.hobby
 {
     font-size: 36px;
     line-height: 42px;
     color: rgb(51,51,51);
-    font-family: "Open Sans";
-    position: relative;
-    top: 40px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 35px;
 }
 
-/*article*/
-
-
-
-/*footer*/
-.final_part
-{
-    position: relative;
-    bottom: 10px;
-    width: 100px;
-    height: auto;
-
-}
-.write_me
+.hobby_information
 {
     width: 562px;
-    height: 263px;
+    height: 200px;
     font-size: 19px;
     line-height: 32px;
-    color: rgb(21,169,139);
-    font-family: "Georgia";
+    color: rgb(85,85,85);
+    font-family: "Georgia", sans-serif;
+    margin-top: -20px;
 }
-/*footer*/
+
+.write_me
+{
+    margin-top: -8px;
+}
+
+.clear
+{
+    clear: both;
+}
