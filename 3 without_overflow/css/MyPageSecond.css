@@ -1,0 +1,248 @@
+/* nav  */
+
+nav
+{
+    height: 49px;
+    font-size: 19px;
+    padding-left: 460px;
+    color: #333333;
+    font-family: "Georgia", sans-serif;
+}
+
+.icon_first, .icon_second, .icon_third, .background
+{
+    background-repeat: no-repeat;
+}
+/* nav  */
+nav a
+{
+    color: #333333;
+    font-family: "Georgia", sans-serif;
+    line-height: 32px;
+    text-decoration: none;
+    display: block;
+}
+nav span
+{
+    text-decoration: none;
+
+}
+.icon_first
+{
+    width: 140px;
+    height: 49px;
+    float: left;
+    padding: 10px 0px 0px 0px;
+    background-image: url(../images/about_me.png);
+    background-position-x: 16px;
+    background-position-y: 18px;
+}
+
+.icon_first:hover
+{
+    background-color: #15A98C;
+    font-size: 19px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-family: "Georgia", sans-serif;
+    background-image: url(../images/about_me_hover.png);
+}
+
+.icon_second
+{
+    width: 160px;
+    height: 49px;
+    float: left;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    background-image: url(../images/hobbie.png);
+    background-position-x: 22px;
+    background-position-y: 18px;
+}
+
+.icon_second:hover
+{
+    background-color: #15A98C;
+    font-size: 19px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-family: "Georgia", sans-serif;
+    background-image: url(../images/hobbie_hover.png);
+}
+
+.icon_third
+{
+    float: left;
+    width: 220px;
+    height: 49px;
+    padding: 10px 0px 0px 0px;
+    background-image: url(../images/films.png);
+    background-position-x: 18px;
+    background-position-y:18px;
+}
+
+.icon_third:hover
+ {
+    background-color: #15A98C;
+    font-size: 19px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-family: "Georgia", sans-serif;
+    background-image: url(../images/films_hover.png);
+}
+.icon_text_first
+{
+    padding-left: 39px;
+}
+.icon_text_second
+{
+    padding-left: 20px;
+}
+.icon_text_third
+{
+    padding-left: 45px;
+}
+.background
+{
+    background-image: url(../images/background.png);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+}
+
+.main_container_me
+{
+    position: relative;
+    margin-top: 210px;
+    margin-bottom: 15px;
+    margin-bottom: 44px;
+}
+
+aside
+{
+    float: left;
+}
+
+.second_part_background
+{
+    width: 100%;
+    height: 1034px;
+}
+.second_part
+{
+    width: 1200px;
+    margin-left: 340px;
+    margin-top: 0px;
+}
+.second_part h1
+{
+    padding-top: 33px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif, sans-serif;
+}
+
+.colum_container
+ {
+    margin-left: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    height: 780px;
+    margin-left: -20px;
+    margin-top: 31px;
+}
+
+.colum_container .colum
+{
+    width: 285px;
+    float: left;
+    margin-left: 20px;
+}
+
+.colum_container h1
+{
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: -13px;
+}
+
+.colum_container p
+{
+    width: 285px;
+    height: 500px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Georgia", sans-serif;
+    margin-top: 0px;
+}
+.colum_container .colum img
+{
+    width: 285px;
+    height: 190px;
+    border-radius: 5px;
+    background-color: #454545;
+}
+
+.ending_hover
+{
+    display: block;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98b;
+    text-decoration: none;
+    margin-left: 480px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.ending_hover p
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(245,245,245);
+    font-family: "Georgia";
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 20px;
+}
+
+.ending_hover:hover
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+footer
+{
+    width: 100%;
+    height: 62px;
+    background-color: #F5F5F5;
+    margin-bottom: 0px;
+}
+
+footer p
+{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 278px;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+
+.clear
+{
+    clear: both;
+}
