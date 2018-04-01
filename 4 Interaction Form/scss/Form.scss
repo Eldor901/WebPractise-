@@ -1,0 +1,275 @@
+$main_font: "Open Sans", sans-serif;
+$line_width: 235px;
+$main_font_two: "Georgia", sans-serif;
+.form_container
+{
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 24px;
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+    h1
+    {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 36px;
+        line-height: 42px;
+        color: rgb(51,51,51);
+        font-family: $main_font;
+        margin-top: 80px;
+        margin-right: 35px;
+
+
+        &::before
+        {
+            text-decoration: none;
+            display: inline-block;
+            width: $line_width;
+            height: 1px;
+            content: "";
+            background-image: url(../images/line-left.png);
+            margin-right: 30px;
+            margin-bottom: 13px;
+
+        }
+        &::after
+        {
+            text-decoration: none;
+            display: inline-block;
+            width: $line_width;
+            height: 1px;
+            content: "";
+            background-image: url(../images/line-left.png);
+            margin-left: 30px;
+            margin-bottom: 13px;
+
+        }
+
+    }
+    form
+    {
+        width: 703px;
+        height: 650px;
+        border-radius: 25px;
+        text-align: left;
+        margin: 40px auto;
+        margin-left: 109px;
+
+        input
+        {
+            text-decoration: none;
+            width: 516px;
+            height: 44px;
+            border-radius: 3px;
+            background-color: #c9c9c9;
+            border: 2px solid #c9c9c9;
+            background-color: white;
+            margin-top: 0px;
+        }
+        input:hover
+        {
+
+            border: 2px solid #a5a5a5;
+        }
+        input:focus
+        {
+            border: 2px solid #15a98b;
+        }
+        .form_overall
+        {
+            font-size: 20px;
+            line-height: 32px;
+            color: rgb(51,51,51);
+            font-family: $main_font;
+            &::after
+            {
+               content: " *";
+               color: red;
+            }
+        }
+        .form_overall_two
+        {
+            font-size: 20px;
+            line-height: 32px;
+            color: rgb(51,51,51);
+            font-family: $main_font;
+            padding-top: 10px;
+        }
+
+        select
+        {
+            text-decoration: none;
+            background-color: white;
+            width: 540px;
+            height: 50px;
+            border-radius: 3px;
+            background-color: #c9c9c9;
+            border: 2px solid #c9c9c9;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url(../images/arrow_down.png);
+            background-repeat: no-repeat;
+            background-position: 496px;
+
+            option
+            {
+                padding-left: 20px;
+                cursor: pointer;
+            }
+
+        }
+        select:hover
+        {
+            border: 2px solid #a5a5a5;
+        }
+        select:focus
+        {
+            border: 2px solid #15a98b;
+        }
+        #country
+        {
+            background-color: white;
+            margin-bottom: 42px;
+            padding-left: 20px;
+            font-size: 18px;
+            line-height: 32px;
+            color: rgb(85,85,85);
+            font-family: $main_font;
+            cursor: pointer;
+        }
+    }
+}
+
+#name
+{
+    margin-bottom: 27px;
+    margin-top: 5px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: $main_font;
+    cursor: pointer;
+}
+
+#email
+{
+    margin-bottom: 26px;
+    margin-top: 3px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: $main_font;
+    cursor: pointer;
+}
+.russia
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: $main_font;
+    background-color: white;
+    cursor: pointer;
+}
+
+.is_green:hover
+{
+    border: 2px solid #15a98b;
+}
+
+.choice
+{
+    height: 15px;
+    margin-bottom: 54px;
+    cursor: default;
+}
+.choice
+{
+
+
+    #choice_first
+    {
+        font-size: 18px;
+        line-height: 32px;
+        color: rgb(51,51,51);
+        font-family: $main_font;
+        width: 13px;
+        float: left;
+        margin-left: 0px;
+
+        &::after
+        {
+            content: "Male";
+            cursor: pointer;
+            position: relative;
+            top: 6px;
+            margin-left: 21px;
+        }
+    }
+
+    #choice_second
+    {
+        font-size: 18px;
+        line-height: 32px;
+        color: rgb(51,51,51);
+        font-family: $main_font;
+        width: 13px;
+        &::after
+        {
+            content: "Female";
+            cursor: pointer;
+            position: relative;
+            top: 6px;
+            margin-left: 21px;
+        }
+    }
+}
+.radio_label
+{
+    margin-left: 116px;
+}
+.send
+{
+    textarea
+    {
+        height: 144px;
+        width: 515px;
+        margin-bottom: 46px;
+        margin-top: 3px;
+        border: 2px solid #c9c9c9;
+        resize: none;
+        padding-left: 20px;
+        font-size: 18px;
+        font-family: $main_font;
+        cursor: pointer;
+    }
+
+    textarea:hover
+    {
+        border: 2px solid #a5a5a5;
+    }
+
+    textarea:focus
+    {
+        border: 2px solid #15a98b;
+    }
+
+    .buttom_form
+    {
+        text-decoration: none;
+        width: 220px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #15a98b;
+        font-size: 19px;
+        line-height: 32px;
+        color: rgb(245,245,245);
+        font-family: $main_font_two;
+        cursor: pointer;
+
+    }
+    .buttom_form:hover
+    {
+        border-radius: 5px;
+        background-color: #15a98b;
+    }
+}
