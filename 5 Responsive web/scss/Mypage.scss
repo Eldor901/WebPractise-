@@ -1,0 +1,422 @@
+/* nav */
+
+/* nav */
+body
+{
+    margin: 0 auto;
+}
+
+.page
+{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.main_container_me
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* header * sans-serif*/
+.quote
+{
+    float: left;
+    width: 570px;
+}
+
+.author_name
+{
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(245,245,245);
+    font-family: $main_font;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: -24px;
+}
+
+.quote_font
+{
+    width: 566px;
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(255,255,255);
+    font-family: $main_font_two;
+    font-style: italic;
+    margin-top: 22px;
+    margin-left: 60px;
+}
+
+.photo
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #132d35;
+    float: left;
+}
+
+.quate_photo
+{
+    position: relative;
+    top: 50px;
+    right: 41px;
+}
+
+div
+{
+    box-sizing: border-box;
+}
+/* header */
+
+/* aside*/
+.left_container
+{
+    width: 305px;
+    float: left;
+}
+
+.favorite_writers
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: $main_font;
+    font-weight: bold;
+    margin-top: 44px;
+    margin-bottom: 13px;
+}
+
+.counting_first
+{
+    width: 330px;
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: $main_font_two;
+    padding-left: 22px;
+    margin-top: 0px;
+    margin-bottom: 42px;
+}
+
+.favorite_films
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: $main_font;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.counting_second
+{
+    width: 330px;
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: $main_font_two;
+    padding-left: 19px;
+    margin-top: -12px;
+}
+/* aside  */
+
+/* section */
+.right_container
+{
+    width: 570px;
+    float: left;
+    margin-left: 85px;
+    margin-top: -161px;
+}
+
+.my_name
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: $main_font;
+    font-weight: bold;
+}
+
+.rectangle
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+    margin-top: -19px;
+}
+
+.about_me
+{
+    width: 561px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: $main_font_two;
+    margin-top: 43px;
+}
+
+.hobby
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family:  $main_font;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+}
+
+.hobby_information
+{
+    width: 562px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: $main_font_two;
+    margin-bottom: 50px;
+
+}
+
+.clear
+{
+    clear: both;
+}
+
+.write_me
+{
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+
+section
+{
+    float: left;
+}
+
+@media screen and (min-width: 980px ) and (max-width: 1279px)
+{
+   .main_container_me
+   {
+       width: 100%;
+       padding-left: 12%;
+   }
+
+   .quote
+   {
+        width: 400px;
+   }
+     aside
+    {
+        width: 378px;
+    }
+
+    .right_container
+    {
+        width: 52%;
+    }
+
+    .about_me
+    {
+        width: 80%;
+    }
+
+    .hobby_information
+    {
+        width: 80%;
+    }
+
+    .right_container
+    {
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 640px ) and (max-width: 979px)
+{
+
+   .photo
+   {
+      width: 200px;
+      height: 220px;
+   }
+
+   .quote
+   {
+       width: 320px;
+   }
+
+   .quote_font
+   {
+        font-size: 23px;
+   }
+
+   .author_name
+   {
+        width: 100px;
+   }
+    .main_container_me
+    {
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-top: 190px;
+
+    }
+    .left_container
+    {
+        margin-bottom: 150px;
+    }
+
+      aside
+     {
+         width: 100%;
+
+     }
+     .left_container
+     {
+         width: 100%;
+     }
+
+     .counting_first
+     {
+         float: right;
+         width: 40%;
+     }
+
+     .favorite_films
+     {
+         margin-top: -45px;
+         padding-left: 57%;
+     }
+
+     .right_container
+     {
+         width: 90%;
+         margin-left: 0px;
+     }
+
+     .about_me
+     {
+         width: 80%;
+     }
+
+     .hobby_information
+     {
+         width: 80%;
+     }
+
+     .right_container
+     {
+         clear: both;
+     }
+
+     .counting_second
+     {
+         float: left;
+         padding-left: 15px;
+     }
+}
+
+@media screen and (min-width: 320px) and (max-width: 639px){
+
+   .main_container_me
+   {
+        margin-top: 93px;
+
+   }
+
+   .photo
+   {
+      width: 260px;
+      height: 280px;
+      display: block;
+      float: none;
+      margin: 0 auto;
+   }
+
+   .quote
+   {
+       width: 90%;
+       text-align: center;
+   }
+
+   .quote_font
+   {
+        font-size: 23px;
+        color: grey;
+        width: auto;
+   }
+
+   .author_name
+   {
+        width: auto;
+        color: grey;
+   }
+
+    .main_container_me
+    {
+        width: 100%;
+        padding-left: 6%;
+        padding-right: 2%;
+
+        section
+        {
+            float: none;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+    }
+
+    .left_container
+    {
+        margin-bottom: 150px;
+    }
+
+      aside
+     {
+         width: 100%;
+
+     }
+     .left_container
+     {
+         width: 100%;
+     }
+
+     .my_name
+     {
+         font-size: 36px;
+     }
+
+     .hobby
+     {
+          font-size: 34px;
+     }
+
+     .right_container
+     {
+         width: 90%;
+         margin-left: 0px;
+     }
+
+     .about_me
+     {
+         width: 80%;
+     }
+
+     .hobby_information
+     {
+         width: 80%;
+     }
+
+     .right_container
+     {
+         clear: both;
+     }
+}
