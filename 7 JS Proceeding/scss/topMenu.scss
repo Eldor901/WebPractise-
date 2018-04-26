@@ -1,0 +1,183 @@
+
+
+/* nav  */
+html
+{
+    overflow-x: hidden;
+}
+
+header
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav
+{
+    height: 49px;
+    font-size: 19px;
+    color: #333333;
+    font-family: $main_font_two;
+}
+
+.icon_first, .icon_second, .icon_third, .background
+{
+    background-repeat: no-repeat;
+}
+/* nav  */
+nav a
+{
+    color: #333333;
+    font-family: $main_font_two;
+    line-height: 32px;
+    text-decoration: none;
+    display: block;
+}
+
+nav span
+{
+    text-decoration: none;
+
+}
+
+.icon_first
+{
+    width: 96px;
+    height: 49px;
+    float: left;
+    padding: 10px 0px 0px 45px;
+    background-image: url(../images/about_me.png);
+    background-position-x: 20px;
+    background-position-y: 16px;
+}
+
+.icon_first:hover
+{
+    background-color: #15A98C;
+    font-size: 19px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-family: $main_font_two;
+    background-image: url(../images/about_me_hover.png);
+}
+
+.icon_second
+{
+    width: 160px;
+    height: 49px;
+    float: left;
+    text-align: center;
+    padding: 10px 0px 0px 8px;
+    background-image: url(../images/hobbie.png);
+    background-position-x: 18px;
+    background-position-y: 16px;
+}
+
+.icon_second:hover
+{
+    background-color: #15A98C;
+    font-size: 19px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-family: $main_font_two;
+    background-image: url(../images/hobbie_hover.png);
+}
+
+.icon_third
+{
+    float: left;
+    width: 169px;
+    height: 49px;
+    padding: 10px 0px 0px 39px;
+    background-image: url(../images/films.png);
+    background-position-x: 12px;
+    background-position-y:16px;
+}
+
+.icon_third:hover
+ {
+    background-color: #15A98C;
+    font-size: 19px;
+    line-height: 32px;
+    color: whitesmoke;
+    font-family: $main_font_two;
+    background-image: url(../images/films_hover.png);
+}
+
+.icon_text_first
+{
+    padding-left: 39px;
+}
+
+.icon_text_second
+{
+    padding-left: 20px;
+}
+
+.icon_text_third
+{
+    padding-left: 45px;
+}
+
+.background
+{
+    background-image: url(../images/background.png);
+    background-position: right bottom ;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0px;
+}
+
+@media screen and (min-width: 980px ) and (max-width: 1279px){
+  header
+  {
+    margin-left: 12%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 979px)
+{
+  header
+  {
+      margin-left: 8%;
+  }
+
+}
+
+@media screen and (max-width: 639px)
+{
+  header
+  {
+     margin-left: 8%;
+     width: 100%;
+     height: 100px;
+     margin: 0 auto;
+     background-image: url(../images/burger.png);
+     background-repeat: no-repeat;
+     background-position-x: 20px;
+     background-position-y: 25px;
+  }
+
+  .background
+  {
+      background-image: url(../images/background.png);
+      background-position: right bottom;
+      width: 100%;
+      margin: 0 auto;
+      height: 300px;
+      margin: 0 auto;
+      position: absolute;
+      left: 0px;
+      top: 100px;
+      overflow-x: hidden;
+  }
+
+  nav
+  {
+      display: none;
+  }
+
+}
