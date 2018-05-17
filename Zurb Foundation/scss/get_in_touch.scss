@@ -1,0 +1,63 @@
+.get_in_touch{
+
+    .touch_title
+    {
+        font-size: 44px;
+        letter-spacing: 1px;
+        color: rgb(80,106,133);
+        font-family: "Lato";
+        font-weight: bold;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        margin-top: 118px;
+    }
+
+    .touch_text
+    {
+        font-size: 21.5px;
+        color: #73879c;
+        letter-spacing: 0.3px;
+        font-family: "Source Sans Pro";
+        text-align: center;
+        margin-left: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        max-width: 842px;
+        padding-top: 19px;
+    }
+
+    .btn
+    {
+        width: 150px;
+        height: 50px;
+        border-radius: 3px;
+        background-color: #00bb9b;
+        margin: 0 auto;
+        margin-top: 38px;
+
+        .btn_text
+        {
+            font-size: 15px;
+            letter-spacing: 0px;
+            color: rgb(255,255,255);
+            font-family: "Source Sans Pro";
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px;
+        }
+
+    }
+
+    .btn:hover
+    {
+        background-color: #17a78b;
+    }
+}
+
+.top_space
+{
+    margin-top: 45px;
+}

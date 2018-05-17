@@ -1,0 +1,17 @@
+@import "header";
+@import "main_hero";
+@import "main_we";
+@import "latest_work";
+@import "get_in_touch";
+@import "footer.scss";
+
+.restrict_width
+{
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after
+{
+    display: none;
+}

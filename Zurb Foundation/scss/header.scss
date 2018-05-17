@@ -1,0 +1,263 @@
+
+header
+{
+    .nav
+    {
+        box-shadow: 0.5px 0.866px 0px #e5e9ed;
+        background-color: #f5f7f9;
+    }
+
+    .contacts
+    {
+        display: block;
+        .email
+        {
+            display: inline;
+            line-height: 30px;
+            font-size: 12px;
+            color: rgb(80,106,133);
+            font-family: 'Source Sans Pro';
+            background-image: url(../images/icon_mail.png);
+            background-position: left, right;
+            background-position-x: 18px;
+            background-repeat: no-repeat;
+            padding-right: 25px;
+            padding-left: 38px;
+            &::before
+            {
+                content: ' ';
+                background-image: url(../images/icon_mail.png);
+                background-position: left, right;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .email:hover
+        {
+             color: #00bb9b;
+             background-image: url(../images/icon_mail_2.png);
+        }
+
+        .phone_number
+        {
+            display: inline;
+            line-height: 40px;
+            font-size: 12px;
+            color: rgb(80,106,133);
+            background-image: url(../images/icon_mobile.png);
+            background-position: left, right;
+            background-repeat: no-repeat;
+            font-family: 'Source Sans Pro';
+            padding-left: 15px;
+
+        }
+    }
+
+
+    .social
+    {
+        display: inline-table;
+        float: right;
+        line-height: 0;
+        padding-right: 9px;
+
+        .facebook
+        {
+            background-image: url(../images/facebook.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+        }
+
+        .gmail
+        {
+            background-image: url(../images/gmail.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+        }
+
+        .twitter
+        {
+            background-image: url(../images/twitter.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+        }
+
+        .pinta
+        {
+            background-image: url(../images/pinterest.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+        }
+
+        .be
+        {
+            background-image: url(../images/be.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+        }
+
+        .bascket
+        {
+            background-image: url(../images/bascket.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+        }
+
+
+        .facebook:hover
+        {
+            background-image: url(../images/facebook_1.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+            background-color: #4567b3;
+
+        }
+
+        .gmail:hover
+        {
+            background-image: url(../images/gmail_1.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+            background-color: #dd5745;
+        }
+
+        .twitter:hover
+        {
+            background-image: url(../images/twitter_1.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+            background-color: #2fbbed;
+        }
+
+        .pinta:hover
+        {
+            background-image: url(../images/pinterest_1.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+            background-color: #d94347;
+        }
+
+        .be:hover
+        {
+            background-image: url(../images/be_1.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+            background-color: #2f79ff;
+        }
+
+        .bascket:hover
+        {
+            background-image: url(../images/bascket_1.png);
+            background-position: center, center;
+            background-repeat:  no-repeat;
+            background-color: #eb6397;
+        }
+
+
+    }
+
+    .restrict_width
+    {
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+
+    .social a
+    {
+        position: relative;
+        display: inline-block;
+        height: 40px;
+        width: 30px;
+    }
+
+    .nav_below
+    {
+        margin-bottom: 30px;
+
+        .grid_margin
+        {
+            margin-top: 37px;
+            margin-left: 20px;
+
+            .logo_image:hover
+            {
+                color: green;
+                background-image: url(../images/logo_hover.png);
+            }
+
+            .nav_links
+            {
+
+                margin-left: 36px;
+                margin-top: -5px;
+                a
+                {
+                    font-size: 14.5px;
+                    color: rgb(80,106,133);
+                    font-family: "Source Sans Pro";
+                    font-weight: bold;
+                    text-align: center;
+                    padding-right: 28px;
+                    border: 1px solid #ffff;
+                }
+
+                .home_menu
+                {
+                    width: 170px;
+                    font-size: 15px;
+                    color: rgb(0,188,156);
+                    font-family: "Source Sans Pro";
+                    font-weight: bold;
+                    width: 210px;
+                    background-color: #f5f7f9;
+                    border: 1px solid #e5e9ed;
+                    height: 205px;
+                    a:hover
+                    {
+                        width: 208px;
+                        height: 43px;
+                        color: rgb(80,106,133);
+                        background-color: #00bb9b;
+                        border: 1px solid #e5e9ed;
+                    }
+                }
+
+                a:hover
+                {
+                    font-size: 15px;
+                    color: #00bb9b;
+                    font-family: "Source Sans Pro";
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: #f5f7f9;
+                    border: 1px solid #e5e9ed;
+                    border-radius: 3px 3px 0 0;
+                    color: #00bb9b;
+                }
+
+                .nav_links_hover
+                {
+                    line-height: 28px;
+                }
+            }
+        }
+
+      .search_icon
+      {
+          background-image: url(../images/icon_search.png);
+          background-position: left, right;
+          background-repeat:  no-repeat;
+          position: relative;
+          width: 44px;
+          height: 40px;
+          float: right;
+      }
+
+    }
+
+}
+
+.logo_hover:hover
+{
+    opacity: 0.6;
+}
