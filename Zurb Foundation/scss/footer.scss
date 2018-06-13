@@ -224,7 +224,7 @@ footer
     {
         a
         {
-            font-size: 14px;
+            font-size: 13px;
             letter-spacing: 0px;
             line-height: 22px;
             color: rgb(112,126,140);
@@ -254,7 +254,8 @@ footer
             }
         }
 
-        float: right;
+       float: right;
+
     }
 }
 
@@ -270,9 +271,29 @@ footer
           text-align: left;
       }
 }
-@media screen and (max-width: 639px){
+@media screen and (max-width: 640px){
     .text_ending
     {
         text-align: center;
     }
+
+    .footer_margin
+    {
+        margin-top: 50px;
+    }
+
+    .footer_ending
+    {
+        .menu
+        {
+            float: none;
+        }
+    }
+
+
+    .menu_center
+    {
+        
+    }
+
 }

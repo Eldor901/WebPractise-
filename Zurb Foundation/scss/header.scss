@@ -190,7 +190,8 @@ header
 
                 margin-left: 36px;
                 margin-top: -5px;
-                a
+
+                .nav_links_hover
                 {
                     font-size: 14.5px;
                     color: rgb(80,106,133);
@@ -201,43 +202,43 @@ header
                     border: 1px solid #ffff;
                 }
 
-                .home_menu
-                {
-                    width: 170px;
-                    font-size: 15px;
-                    color: rgb(0,188,156);
-                    font-family: "Source Sans Pro";
-                    font-weight: bold;
-                    width: 210px;
-                    background-color: #f5f7f9;
-                    border: 1px solid #e5e9ed;
-                    height: 205px;
-                    a:hover
-                    {
-                        width: 208px;
-                        height: 43px;
-                        color: rgb(80,106,133);
-                        background-color: #00bb9b;
-                        border: 1px solid #e5e9ed;
-                    }
-                }
 
-                a:hover
+                .nav_links_hover:hover
                 {
-                    font-size: 15px;
+                    font-size: 14.5px;
                     color: #00bb9b;
                     font-family: "Source Sans Pro";
                     font-weight: bold;
                     text-align: center;
                     background-color: #f5f7f9;
                     border: 1px solid #e5e9ed;
-                    border-radius: 3px 3px 0 0;
                     color: #00bb9b;
                 }
 
                 .nav_links_hover
                 {
                     line-height: 28px;
+                    border-radius: 4px;
+                }
+
+                .home_hover
+                {
+                    line-height: 18px;
+                    padding: 13px 20px;
+                    color: #73879c;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    white-space: normal;
+                    background-color: #f5f7f9;
+                    border-color: #f5f7f9;
+                    text-align: left;
+                }
+
+                .home_hover:hover
+                {
+                    background: #1abb9c;
+                    color: #ffff;
+                    text-align: left;
                 }
             }
         }

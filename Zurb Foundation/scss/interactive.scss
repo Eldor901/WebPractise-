@@ -1,0 +1,123 @@
+.mobile_bar
+{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.mobile_menu
+{
+    width: 50px;
+    height: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+.position-top
+{
+    height: 50%;
+}
+
+.nav_small_links
+{
+    font-size: 14.5px;
+    color: rgb(80,106,133);
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    padding-right: 28px;
+}
+
+.nav_small_links:hover
+{
+        color: #00bb9b;
+        background-color: gainsboro;
+}
+
+.menu a, .menu .button
+{
+    line-height: normal;
+}
+
+
+.next1
+{
+    top: 95%;
+    left: calc(50% - 80px);
+    border-radius: 3px;
+    background: url(../images/icon_arrow_small_left1.png) no-repeat center center #506a85;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+}
+
+.next1:hover
+{
+    background: url(../images/icon_arrow_small_left.png) no-repeat center center #506a85;
+    opacity: 1;
+    transition: opacity .3s ease-out;
+}
+
+.next2
+{
+    top: 95%;
+    right: calc(50% - 80px);
+    border-radius: 3px;
+    background: url(../images/right_icon.png) no-repeat center center  #506a85;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+}
+
+.next2:hover
+{
+    background: url(../images/icon_right1.png) no-repeat center center #506a85;
+    background-position-x: 9px;
+    opacity: 1;
+    transition: opacity .3s ease-out;
+}
+
+.top_margin
+{
+    margin-top: 50px;
+}
+
+
+.latest_work
+{
+    .orbit-bullets button.is-active
+    {
+            background-color: #00bb9b;
+    }
+
+    .orbit-bullets button
+    {
+        width: 15px;
+        height: 15px;
+        background-color: #506a85;
+    }
+
+    .orbit-bullets button:hover
+    {
+        width: 15px;
+        height: 15px;
+        background-color: #00bb9b;
+    }
+
+    .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus
+    {
+        background-color: #506a85;
+    }
+}
+
+.orbit:hover .next1
+{
+    opacity: 1;
+    transition: opacity .6s ease-out;
+}
+
+.orbit:hover .next2
+{
+    opacity: 1;
+    transition: opacity .6s ease-out;
+}

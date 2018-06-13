@@ -1,9 +1,11 @@
 @import "header";
+@import "header_mega_menu";
 @import "main_hero";
 @import "main_we";
 @import "latest_work";
 @import "get_in_touch";
 @import "footer.scss";
+@import "interactive.scss";
 
 .restrict_width
 {
@@ -14,4 +16,21 @@
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after
 {
     display: none;
+}
+
+.dropdown_menu
+{
+    position: relative;
+    display: inline-block;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.close-button, .close-button.medium
+{
+    line-height: 20px;
+    font-size: 40px;
 }

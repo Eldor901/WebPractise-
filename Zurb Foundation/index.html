@@ -38,30 +38,118 @@
             </div>
         </div>
         <div class="nav_below">
-            <div class="grid_container restrict_width">
+            <div class="grid_container restrict_width affix-top">
                 <div class="grid-x grid_margin">
-                    <div class="cell large-2">
-                        <a href="#" class="logo_hover"><img src="images/logo_reen.png" alt=""></a>
+                    <div class="cell large-2 medium-4 small-6">
+                        <a href="#" class="logo_hover show"><img src="images/logo_reen.png" alt=""></a>
+                    </div>
+                    <div class="cell medium-8 small-6 hide-for-large">
+                        <div class="mobile_menu" data-toggle="offCanvas">
+                            <div class="mobile_bar"></div>
+                            <div class="mobile_bar"></div>
+                            <div class="mobile_bar"></div>
+                        </div>
+                    </div>
+                    <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+                        <ul class="menu vertical" data-magellan>
+                            <li><a href="#" class="nav_small_links">HOME</a></li>
+                            <li><a href="#" class="nav_small_links">PORTFOLIO</a></li>
+                            <li><a href="#" class="nav_small_links">BLOG</a></li>
+                            <li><a href="#" class="nav_small_links">PAGES</a></li>
+                            <li><a href="#first" class="nav_small_links">FEATURES</a></li>
+                            <li><a href="#second" class="nav_small_links">LATEST WORKS</a></li>
+                            <li><a href="#thrid" class="nav_small_links">CONTACT US</a></li>
+                        </ul>
+                        <button class="close-button" aria-label="Close menu" type="button" data-close>
+                              <span aria-hidden="true">&times;</span>
+                          </button>
                     </div>
                     <div class="cell large-9">
-                        <div class="nav_links show-for-large">
-                            <ul class="menu dropdown" data-dropdown-menu>
-                                <li>
+                        <div class="nav_links show-for-large" data-magellan>
+                            <ul class="menu" data-dropdown-menu>
+                                <li class="dropdown_menu">
                                     <a href="#" class="nav_links_hover">HOME</a>
-                                    <ul class="menu home_menu">
-                                        <li><a href="#" class="home_hover">AGENCY STYLE</a></li>
-                                        <li><a href="#" class="home_hover">PRODUCT STYLE</a></li>
-                                        <li><a href="#" class="home_hover">SERVICE STYLE</a></li>
-                                        <li><a href="#" class="home_hover">PORTFOLIO STYLE</a></li>
-                                        <li><a href="#" class="home_hover">SHOWCASE STYLE</a></li>
+                                    <ul class="menu position home_menu">
+                                        <li><a href="#" class="home_hover nav_links_hover">AGENCY STYLE</a></li>
+                                        <li><a href="#" class="home_hover nav_links_hover">PRODUCT STYLE</a></li>
+                                        <li><a href="#" class="home_hover nav_links_hover">SERVICE STYLE</a></li>
+                                        <li><a href="#" class="home_hover nav_links_hover">PORTFOLIO STYLE</a></li>
+                                        <li><a href="#" class="home_hover nav_links_hover">SHOWCASE STYLE</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="nav_links_hover">PORTFOLIO</a></li>
-                                <li><a href="#" class="nav_links_hover">BLOG</a></li>
                                 <li><a href="#" class="nav_links_hover">PAGES</a></li>
-                                <li><a href="#" class="nav_links_hover">FEATURES</a></li>
-                                <li><a href="#" class="nav_links_hover">MEGA MENU</a></li>
-                                <li><a href="#" class="nav_links_hover">CONTACT</a></li>
+                                <li><a href="#first" class="nav_links_hover">FEATURES</a></li>
+                                <li><a href="#second" class="nav_links_hover">LATEST WORKS</a></li>
+                                <li class="dropdown_menu">
+                                    <a href="#" class="nav_links_hover">MEGA MENU</a>
+                                    <ul class="mega_menu">
+                                        <li class="grid-container">
+                                            <div class="grid-x grid-margin-x overall_menu">
+                                                <div class="cell large-3">
+                                                    <p class="text_mega">Focus on</p>
+                                                    <div class="pointer box_img">
+                                                        <img src="images/picture_1.jpg" alt="" class="box_img">
+                                                    </div>
+                                                    <p class="text_below">Consed quodips ameniat empernam que apid cust quas molor eatis numa estio.</p>
+                                                    <div class="btn_menu">
+                                                        <a class="btn_text">VIEW PROJECT</a>
+                                                    </div>
+                                                </div>
+                                                <div class="cell large-3 special_pages">
+                                                    <p class="text_mega">Special pages</p>
+                                                    <ul>
+                                                        <li><a href="#">3 Columns Details Grid Portfolio</a></li>
+                                                        <li><a href="#">Fullscreen Grid Portfolio</a></li>
+                                                        <li><a href="#">Portfolio Post with Video</a></li>
+                                                        <li><a href="#">2 Columns Grid Blog with Left Sidebar</a></li>
+                                                        <li><a href="#">3 Columns Grid Blog without Sidebar</a></li>
+                                                        <li><a href="#">Blog Post with Right Sidebar</a></li>
+                                                        <li><a href="#">Side Navigation Page</a></li>
+                                                        <li><a href="#">About Page II</a></li>
+                                                        <li><a href="#">Service Page I</a></li>
+                                                        <li><a href="#">Pricing Page I</a></li>
+                                                        <li><a href="#">Contact Page I</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="cell large-3 latest_works_menu">
+                                                    <p class="text_mega">latest Works</p>
+                                                    <div class="grid-x">
+                                                        <div class="cell large-5 pointer intend_bottom">
+                                                            <div class="link_photo box_img"><img src="../images/small_image2.jpg" alt=""></div>
+                                                        </div>
+                                                        <div class="cell large-5 pointer intend_right intend_bottom">
+                                                            <div class="link_photo box_img"><img src="../images/small_image2.jpg" alt=""></div>
+                                                        </div>
+                                                        <div class="cell large-5 pointer intend_bottom">
+                                                            <div class="link_photo box_img"><img src="../images/small_image2.jpg" alt=""></div>
+                                                        </div>
+                                                        <div class="cell large-5 pointer intend_right intend_bottom">
+                                                            <div class="box_img"><img src="../images/small_image2.jpg" alt=""></div>
+                                                        </div>
+                                                        <div class="cell large-5 pointer">
+                                                            <div class="link_photo box_img"><img src="../images/small_image2.jpg" alt=""></div>
+                                                        </div>
+                                                        <div class="cell large-5 pointer intend_right">
+                                                            <div class="link_photo box_img"><img src="../images/small_image2.jpg" alt=""></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cell large-3 about_us_menu">
+                                                    <p class="text_mega">About us</p>
+                                                    <p class="text_about_us">Voluptat ibusaped molorporro consequ idustibus. Reressi morum ut dolessiti tem nihicid ernatum, coria volore non pro officat ut autem accaborem conet. Omnis peribus qui dolent praeperrum coria.<br>
+
+                                                    </p>
+                                                    <p class="new_text">Equam conesti occum dolorest, quae venderes quistius, comnitatur sae dinam nonseculpa cum fugit is verciam.</p>
+                                                    <div class="btn">
+                                                        <a href="#" class="btn_style">READ MORE</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#third" class="nav_links_hover">CONTACT US</a></li>
                             </ul>
                         </div>
                     </div>
@@ -80,25 +168,18 @@
                         <button class="orbit-previous"></button>
                         <button class="orbit-next"></button>
                     </div>
-                    <ul class="orbit-container">
+                    <ul class="orbit-container" data-equalizer>
                         <li class="is-active orbit-slide">
                             <figure class="orbit-figure item_1">
                                 <div class="grid-container">
                                     <div class="grid-x grid-paddinng-x">
                                         <div class="cell large-10 large-offset-1 item">
-                                            <p class="tittle_hero hide-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero hide-for-small-only">
+                                            <p class="tittle_hero">MADE FOR DESIGNERS</p>
+                                            <p class="text_hero">
                                                 Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
                                             </p>
-                                            <div class="button_hero hide-for-small-only">
-                                                <a href="#" class="button  style_start">GET STARTED NOW</a>
-                                            </div>
-                                            <p class="tittle_hero tittle_hero_smaller show-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero text_hero_smaller show-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
-                                            </p>
-                                            <div class="button_hero button_hero_smaller show-for-small-only">
-                                                <a href="#" class="button small style_start_smaller">GET STARTED NOW</a>
+                                            <div class="button_hero">
+                                                <a href="#" class="button  style_start btn_smaller">GET STARTED NOW</a>
                                             </div>
                                         </div>
                                     </div>
@@ -106,23 +187,16 @@
                             </figure>
                         </li>
                         <li class="is-active orbit-slide">
-                            <figure class="orbit-figure item_1">
+                            <figure class="orbit-figure item_2">
                                 <div class="grid-container">
                                     <div class="grid-x grid-paddinng-x">
                                         <div class="cell large-10 large-offset-1 item">
-                                            <p class="tittle_hero hide-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero hide-for-small-only">
+                                            <p class="tittle_hero">FRESH AND BEAUTIFUL DESIGN</p>
+                                            <p class="text_hero">
                                                 Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
                                             </p>
-                                            <div class="button_hero hide-for-small-only">
-                                                <a href="#" class="button  style_start">GET STARTED NOW</a>
-                                            </div>
-                                            <p class="tittle_hero tittle_hero_smaller show-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero text_hero_smaller show-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
-                                            </p>
-                                            <div class="button_hero button_hero_smaller show-for-small-only">
-                                                <a href="#" class="button small style_start_smaller">GET STARTED NOW</a>
+                                            <div class="button_hero">
+                                                <a href="#" class="button  style_start btn_smaller">GET STARTED NOW</a>
                                             </div>
                                         </div>
                                     </div>
@@ -130,23 +204,17 @@
                             </figure>
                         </li>
                         <li class="is-active orbit-slide">
-                            <figure class="orbit-figure item_1">
+                            <figure class="orbit-figure item_3">
                                 <div class="grid-container">
                                     <div class="grid-x grid-paddinng-x">
                                         <div class="cell large-10 large-offset-1 item">
-                                            <p class="tittle_hero hide-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero hide-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
+                                            <p class="tittle_hero">CLEAN AND</p>
+                                            <p class="tittle_hero">REUSABLE CODE</p>
+                                            <p class="text_hero">
+                                            The clean code allows you to easily copy code blocks from content modules and past them in different places or layouts.
                                             </p>
-                                            <div class="button_hero hide-for-small-only">
-                                                <a href="#" class="button  style_start">GET STARTED NOW</a>
-                                            </div>
-                                            <p class="tittle_hero tittle_hero_smaller show-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero text_hero_smaller show-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
-                                            </p>
-                                            <div class="button_hero button_hero_smaller show-for-small-only">
-                                                <a href="#" class="button small style_start_smaller">GET STARTED NOW</a>
+                                            <div class="button_hero">
+                                                <a href="#" class="button  style_start btn_smaller">GET STARTED NOW</a>
                                             </div>
                                         </div>
                                     </div>
@@ -154,23 +222,17 @@
                             </figure>
                         </li>
                         <li class="is-active orbit-slide">
-                            <figure class="orbit-figure item_1">
+                            <figure class="orbit-figure item_4">
                                 <div class="grid-container">
                                     <div class="grid-x grid-paddinng-x">
                                         <div class="cell large-10 large-offset-1 item">
-                                            <p class="tittle_hero hide-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero hide-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
+                                            <p class="tittle_hero">JUST FOCUS ON</p>
+                                            <p class="tittle_hero">YOUR CREATIVITY</p>
+                                            <p class="text_hero" >
+                                                 Take a break from messing around with heavy coding and spend your time brainstorming ideas for your next project.
                                             </p>
-                                            <div class="button_hero hide-for-small-only">
-                                                <a href="#" class="button  style_start">GET STARTED NOW</a>
-                                            </div>
-                                            <p class="tittle_hero tittle_hero_smaller show-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero text_hero_smaller show-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
-                                            </p>
-                                            <div class="button_hero button_hero_smaller show-for-small-only">
-                                                <a href="#" class="button small style_start_smaller">GET STARTED NOW</a>
+                                            <div class="button_hero">
+                                                <a href="#" class="button  style_start btn_smaller">GET STARTED NOW</a>
                                             </div>
                                         </div>
                                     </div>
@@ -178,23 +240,16 @@
                             </figure>
                         </li>
                         <li class="is-active orbit-slide">
-                            <figure class="orbit-figure item_1">
+                            <figure class="orbit-figure item_5">
                                 <div class="grid-container">
                                     <div class="grid-x grid-paddinng-x">
                                         <div class="cell large-10 large-offset-1 item">
-                                            <p class="tittle_hero hide-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero hide-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
+                                            <p class="tittle_hero">SHOWCASE YOUR CONTENT</p>
+                                            <p class="text_hero">
+                                                With REEN you have the possibility to create websites for various contents quickly and easily. Now it's up to you!
                                             </p>
-                                            <div class="button_hero hide-for-small-only">
-                                                <a href="#" class="button  style_start">GET STARTED NOW</a>
-                                            </div>
-                                            <p class="tittle_hero tittle_hero_smaller show-for-small-only">MADE FOR DESIGNERS</p>
-                                            <p class="text_hero text_hero_smaller show-for-small-only">
-                                                Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.
-                                            </p>
-                                            <div class="button_hero button_hero_smaller show-for-small-only">
-                                                <a href="#" class="button small style_start_smaller">GET STARTED NOW</a>
+                                            <div class="button_hero">
+                                                <a href="#" class="button  style_start btn_smaller">GET STARTED NOW</a>
                                             </div>
                                         </div>
                                     </div>
@@ -217,7 +272,7 @@
         <section class="who_we_are">
             <div class="grid_container restrict_width">
                 <div class="grid_x">
-                    <div class="cell large-6">
+                    <div class="cell large-6" id="first" data-magellan-target="first">
                         <h1 class="title_we title_we_smaller">Beautiful. Clean. Responsive.</h1>
                     </div>
                     <div class="cell large-8">
@@ -288,12 +343,12 @@
                 </div>
             </div>
         </section>
-        <section class="latest_work">
+        <section class="latest_work"  id="second" data-magellan-target="second">
             <div class="grid-container restrict_width">
                 <h1 class="title_work title_work_smaller">Check out our latest works</h1>
                 <p class="text_work text_work_smalle">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
-                <div class="grid-x grid-margin-x all_cover">
-                    <div class="cell large-6 medium-6 small-12 cover">
+                <div class="grid-x grid-margin-x all_cover" data-equalizer>
+                    <div class="cell large-6 medium-6 small-12 cover" data-equalizer-watch>
                         <a href="#" class="box_img">
                             <img src="images/picture_1.jpg" alt="" class="big_images picture_1">
                         </a>
@@ -302,7 +357,7 @@
                             <p class="figcaption_text">identity</p>
                         </div>
                     </div>
-                    <div class="cell large-6 medium-6 small-12 cover ">
+                    <div class="cell large-6 medium-6 small-12 cover" data-equalizer-watch>
                         <a href="#" class="box_img">
                             <img src="images/picture_2.jpg" alt="" class="big_images picture_2">
                         </a>
@@ -312,36 +367,71 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid-x grid-margin-x top_space">
-                    <div class="cell large-3 medium-3 small-6 picture_link">
-                        <a href="#" class="box_img_smaller">
-                            <img src="images/small_image.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="cell large-3 medium-3 small-6 picture_link">
-                        <a href="#" class="box_img_smaller">
-                            <img src="images/small_image2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="cell large-3 medium-3 small-6 picture_link">
-                        <a href="#" class="box_img_smaller">
-                            <img src="images/small_image3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="cell large-3 medium-3 small-6 picture_link">
-                        <a href="#" class="box_img_smaller">
-                            <img src="images/small_image4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="cell large-12 pag_container">
-                        <a class="left"></a>
-                        <a class="right"></a>
-                        <div class="pag">
-                            <a></a>
-                            <a></a>
-                            <a></a>
+                <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                    <div class="orbit-wrapper">
+                        <div class="orbit-controls">
+                            <button class="orbit-previous next1"></button>
+                            <button class="orbit-next next2"></button>
                         </div>
+                        <ul class="orbit-container">
+                            <li class="is-active orbit-slide">
+                                <figure class="orbit-figure">
+                                    <div class="grid-x grid-margin-x top_space">
+                                        <div class="cell large-3 medium-3 small-6 picture_link hide-for-small-only">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="cell large-3 medium-3 small-6 picture_link hide-for-small-only">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="cell large-3 medium-3 small-6 picture_link">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="cell large-3 medium-3 small-6 picture_link">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </li>
+                            <li class="is-active orbit-slide">
+                                <figure class="orbit-figure">
+                                    <div class="grid-x grid-margin-x top_space">
+                                        <div class="cell large-3 medium-3 small-6 picture_link hide-for-small-only">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="cell large-3 medium-3 small-6 picture_link hide-for-small-only">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="cell large-3 medium-3 small-6 picture_link">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="cell large-3 medium-3 small-6 picture_link">
+                                            <a href="#" class="box_img_smaller">
+                                                <img src="images/small_image4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </li>
+                        </ul>
                     </div>
+                    <nav class="orbit-bullets top_margin">
+                        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                        <button data-slide="1"></button>
+                    </nav>
                 </div>
             </div>
         </section>
@@ -349,7 +439,7 @@
             <div class="grid-container restrict_width">
                 <div class="grid-x">
                     <div class="cell large-12">
-                        <h1 class="touch_title">Want to work with us?</h1>
+                        <h1 class="touch_title" id="third" data-magellan-target="third">Want to work with us?</h1>
                     </div>
                     <div class="cell large-12">
                         <p class="touch_text">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
@@ -365,7 +455,7 @@
     </section>
     <footer>
         <div class="grid-container restrict_width">
-            <div class="grid-x grid-margin-x footer_margin ">
+            <div class="grid-x grid-margin-x footer_margin">
                 <div class="cell large-3 medium-6 colums colums_margin">
                     <p class="title_colum">WHO WE ARE</p>
                     <a href="#"><img src="images/logo.png" alt="" class="logo_footer"></a>
@@ -414,14 +504,14 @@
                     <div class="cell large-3 medium-4 small-12">
                         <p class="text_ending">© 2018 REEN. All rights reserved.</p>
                     </div>
-                    <div class="cell  large-9 medium-8 show-for-medium">
-                        <ul class="menu">
-                            <li><a href="#" class="dote">Home</a></li>
-                            <li><a href="#" class="dote">Portfolio</a></li>
-                            <li><a href="#" class="dote">Blog</a></li>
-                            <li><a href="#" class="dote">About</a></li>
-                            <li><a href="#" class="dote">Services</a></li>
-                            <li><a href="#">Contact</a></li>
+                    <div class="cell  large-9 medium-8 small-12">
+                        <ul class="menu hide-for-small-only">
+                            <li class="menu_center"><a href="#" class="dote">Home</a></li>
+                            <li class="menu_center"><a href="#" class="dote">Portfolio</a></li>
+                            <li class="menu_center"><a href="#" class="dote">Blog</a></li>
+                            <li class="menu_center"><a href="#" class="dote">About</a></li>
+                            <li class="menu_center"><a href="#" class="dote">Services</a></li>
+                            <li class="menu_center"><a href="#">Contact</a></li>
                         </ul>
                     </div>
                 </div>
